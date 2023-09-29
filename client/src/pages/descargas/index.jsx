@@ -6,7 +6,8 @@ import DownloadIcon from "@mui/icons-material/Download";
 import { motion } from "framer-motion";
 import SubBar from "../global/SubBar";
 
-const baseURL = "http://82.223.243.108:3030/api/descargas";
+const baseURL =
+  "https://observatoriodedatosepiu.khoraurbanthinkers.es/api/descargas";
 // const storageKey = "visorData"; // Key for storing/retrieving data from localStorage
 function Descargas() {
   const theme = useTheme();

@@ -14,7 +14,8 @@ import AdfScannerIcon from "@mui/icons-material/AdfScanner";
 import CallIcon from "@mui/icons-material/Call";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 
-const baseURL = "http://82.223.243.108:3030/api/dashboard";
+const baseURL =
+  "https://observatoriodedatosepiu.khoraurbanthinkers.es/api/dashboard";
 // const storageKey = "dashboardData"; // Key for storing/retrieving data from localStorage
 
 function Dashboard() {

@@ -9,7 +9,8 @@ import axios from "axios";
 import { motion } from "framer-motion";
 import loading from "../../assets/loading.gif";
 
-const baseURL = "http://82.223.243.108:3030/api/derivacion";
+const baseURL =
+  "https://observatoriodedatosepiu.khoraurbanthinkers.es/api/derivacion";
 const storageKey = "derivacionData"; // Key for storing/retrieving data from localStorage
 
 function Derivacion() {

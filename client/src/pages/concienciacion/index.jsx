@@ -7,7 +7,8 @@ import PieChart from "../../components/PieChartConcien";
 import axios from "axios";
 import { motion } from "framer-motion";
 
-const baseURL = "http://82.223.243.108:3030/api/concienciacion";
+const baseURL =
+  "https://observatoriodedatosepiu.khoraurbanthinkers.es/api/concienciacion";
 const storageKey = "concienciacionData"; // Key for storing/retrieving data from localStorage
 
 function Concienciacion() {

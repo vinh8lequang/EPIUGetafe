@@ -80,7 +80,8 @@ const availableSelections = [
   "Building_Getafe_Medidas recibidas: Medidas de rehabilitación en edificio",
 ];
 
-const baseURL = "http://82.223.243.108:3030/api/visor-epiu";
+const baseURL =
+  "https://observatoriodedatosepiu.khoraurbanthinkers.es/api/visor-epiu";
 // const storageKey = "visorData"; // Key for storing/retrieving data from localStorage
 
 function VisorEPIU() {

@@ -104,7 +104,8 @@ const availableSelections = [
   "porc hogares unipersonales (INE 20)",
 ];
 
-const baseURL = "http://82.223.243.108:3030/api/visor-barrio";
+const baseURL =
+  "https://observatoriodedatosepiu.khoraurbanthinkers.es/api/visor-barrio";
 // const storageKey = "visorData"; // Key for storing/retrieving data from localStorage
 function VisorBarrio() {
   const theme = useTheme();
