@@ -9,7 +9,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const baseURL = "http://82.223.243.108/api/formacion3";
+const baseURL = "http://82.223.243.108:3030/api/formacion3";
 const storageKey = "compFormData"; // Key for storing/retrieving data from localStorage
 
 function CompForm() {

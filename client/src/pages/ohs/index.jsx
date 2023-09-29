@@ -9,7 +9,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const baseURL = "http://82.223.243.108/api/formacion1";
+const baseURL = "http://82.223.243.108:3030/api/formacion1";
 const storageKey = "ohsData"; // Key for storing/retrieving data from localStorage
 
 function Ohs() {

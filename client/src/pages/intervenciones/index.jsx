@@ -9,7 +9,7 @@ import BarChart2 from "../../components/BarChartInter2";
 import axios from "axios";
 import { motion } from "framer-motion";
 
-const baseURL = "http://82.223.243.108/api/intervenciones";
+const baseURL = "http://82.223.243.108:3030/api/intervenciones";
 const storageKey = "intervencion1Data"; // Key for storing/retrieving data from localStorage
 
 function Intervenciones1() {

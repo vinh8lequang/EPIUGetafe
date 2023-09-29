@@ -10,7 +10,7 @@ import LineBarChart2 from "../../components/LineBarComposedAnalisis2";
 import axios from "axios";
 import { motion } from "framer-motion";
 
-const baseURL = "http://82.223.243.108/api/analisis";
+const baseURL = "http://82.223.243.108:3030/api/analisis";
 const storageKey = "analisisData"; // Key for storing/retrieving data from localStorage
 
 function Analisis() {

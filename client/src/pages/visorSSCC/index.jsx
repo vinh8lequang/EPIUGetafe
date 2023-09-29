@@ -113,7 +113,7 @@ const availableSelections = [
   "porc hogares unipersonales (INE 20)",
 ];
 
-const baseURL = "http://82.223.243.108/api/visor-sscc";
+const baseURL = "http://82.223.243.108:3030/api/visor-sscc";
 // const storageKey = "visorData"; // Key for storing/retrieving data from localStorage
 function Visor() {
   const theme = useTheme();
