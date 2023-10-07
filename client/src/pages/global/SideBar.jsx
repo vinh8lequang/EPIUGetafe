@@ -168,33 +168,33 @@ function SideBar() {
                 Descargas
               </MenuItem>
             </Box>
-            <Box
-              display={"flex"}
-              flexDirection={"column"}
-              justifyContent={"end"}
-              flexGrow={1}
-              height={"15vh"}
-              // alignItems={"space-between"}
-              // backgroundColor={colors.gray[800]}
-            >
-              <MenuItem
-                // style={{
-                //   color: colors.blueAccent[300],
-                //   fontSize: "0.65rem",
-                // }}
-                href="https://khoraurbanthinkers.es/"
-                target="_blank"
+
+            {!collapsed && (
+              <Box
+                display={"flex"}
+                flexDirection={"column"}
+                justifyContent={"end"}
+                flexGrow={1}
+                height={"15vh"}
+                // alignItems={"space-between"}
+                // backgroundColor={colors.gray[800]}
               >
-                <Typography
-                  color={collapsed ? colors.primary[100] : colors.primary[600]}
-                  align="center"
+                <MenuItem
+                  // style={{
+                  //   color: colors.blueAccent[300],
+                  //   fontSize: "0.65rem",
+                  // }}
+                  href="https://khoraurbanthinkers.es/"
+                  target="_blank"
                 >
-                  Desarrollado por
-                  <br />
-                  Khora Urban Thinkers
-                </Typography>
-              </MenuItem>
-            </Box>
+                  <Typography color={colors.primary[600]} align="center">
+                    Desarrollado por
+                    <br />
+                    Khora Urban Thinkers
+                  </Typography>
+                </MenuItem>
+              </Box>
+            )}
           </Box>
         </Menu>
       </Sidebar>
