@@ -115,10 +115,10 @@ function Overlay({ closeOverlay }) {
         padding={"1rem"}
       >
         <Typography fontSize={"0.78rem"} align="left" color={colors.gray[500]}>
-          Para su adecuada visualización le recomendamos:
+          Para su visualización óptima le recomendamos:
           <br />
-          <strong>En portátiles:</strong> Hacer <strong>zoom out al 80%</strong>{" "}
-          para una visualización óptima <ZoomOutIcon />
+          <strong>En portátiles:</strong> Reducir el zoom del navegador al{" "}
+          <strong>80%</strong> <ZoomOutIcon />
           <br />
           <strong>En monitores:</strong> No es necesario realizar ningún ajuste
           de zoom.
