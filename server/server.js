@@ -33,22 +33,22 @@ const dataPathExcel_intervenciones = "resources/data_intervenciones.xlsx";
 const dataPathJSON_ohs = "resources/ohs/ohs_rawdata.json";
 
 const colors = [
-  "#9a031e", // Coral Red
-  "#0074D9", // Royal Blue
-  "#3D9970", // Seaweed Green
-  "#001f3f", // Navy Blue
-  "#e27429", // Bright Orange
-  "#3F51B5", // Indigo
-  "#85144b", // Dark Red
-  "#006d77", // Blush Pink
-  "#FFD700", // Gold
-  "#207d7d", // Dark Teal
-  "#2ECC40", // Lime Green
-  "#e8b02c", // Mustard Yellow
-  "#7FDBFF", // Sky Blue
-  "#9C27B0", // Purple
-  "#39CCCC", // Teal
-  "#e04abd", // Magenta
+  "#9a031e",
+  "#0074D9",
+  "#3D9970",
+  "#001f3f",
+  "#e27429",
+  "#3F51B5",
+  "#85144b",
+  "#006d77",
+  "#FFD700",
+  "#207d7d",
+  "#2ECC40",
+  "#e8b02c",
+  "#7FDBFF",
+  "#9C27B0",
+  "#39CCCC",
+  "#e04abd",
 ];
 
 const colorsSunBurst0 = [
@@ -554,12 +554,12 @@ app.get("/api/visor-epiu", async (req, res) => {
   resetCounters(mediasGlobalesKeysEPIU);
   resetCounters(
     mediasGlobalesKmediasCertificadosKeysEPIUeysEPIU[
-      "Building_Getafe_cert emision CO2"
+    "Building_Getafe_cert emision CO2"
     ]
   );
   resetCounters(
     mediasGlobalesKmediasCertificadosKeysEPIUeysEPIU[
-      "Building_Getafe_cert consumo e primaria"
+    "Building_Getafe_cert consumo e primaria"
     ]
   );
 
